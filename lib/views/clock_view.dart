@@ -44,6 +44,7 @@ class ClockPainter extends CustomPainter {
   var dateTime = DateTime.now();
 
   // 60 sec - 360, 1 sec - 6degree
+  // 60 min - 360, 1 min - 6degree
   // 12 hours - 360, 1 hour - 30degrees, 1 min - 0.5degrees
 
   @override

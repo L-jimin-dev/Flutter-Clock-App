@@ -1,5 +1,6 @@
 import 'package:jimin_clock/enums.dart';
-import 'package:jimin_clock/menu_info.dart';
+import 'package:jimin_clock/models/alarm_info.dart';
+import 'package:jimin_clock/models/menu_info.dart';
 
 List<MenuInfo> menuItems = [
   MenuInfo(
@@ -22,4 +23,17 @@ List<MenuInfo> menuItems = [
     title: 'Stopwatch',
     imageSource: 'assets/stopwatch_icon.png',
   ),
+];
+
+List<AlarmInfo> alarms = [
+  AlarmInfo(
+    alarmDateTime: DateTime.now().add(Duration(hours: 1)),
+    title: 'Office',
+    gradientColorIndex: 0
+  ),
+  AlarmInfo(
+    alarmDateTime: DateTime.now().add(Duration(hours: 2)),
+    title: 'Sport',
+    gradientColorIndex: 1
+  )
 ];
