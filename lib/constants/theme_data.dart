@@ -17,8 +17,8 @@ class CustomColors {
 }
 
 class GradientColors {
-  final List<Color> colors;
-  GradientColors(this.colors);
+  // final List<Color> colors;
+  // GradientColors(this.colors);
 
   static List<Color> sky = [Color(0xFF6448FE), Color(0xFF5FC6FF)];
   static List<Color> sunset = [Color(0xFFFE6197), Color(0xFFFFB463)];
@@ -27,12 +27,12 @@ class GradientColors {
   static List<Color> fire = [Color(0xFFFF5DCD), Color(0xFFFF8484)];
 }
 
-class GradientTemplate {
-  static List<GradientColors> gradientTemplate = [
-    GradientColors(GradientColors.sky),
-    GradientColors(GradientColors.sunset),
-    GradientColors(GradientColors.sea),
-    GradientColors(GradientColors.mango),
-    GradientColors(GradientColors.fire),
-  ];
-}
+// class GradientTemplate {
+//   static List<GradientColors> gradientTemplate = [
+//     GradientColors(GradientColors.sky),
+//     GradientColors(GradientColors.sunset),
+//     GradientColors(GradientColors.sea),
+//     GradientColors(GradientColors.mango),
+//     GradientColors(GradientColors.fire),
+//   ];
+// }

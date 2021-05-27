@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:jimin_clock/menu_info.dart';
+import 'package:jimin_clock/models/menu_info.dart';
 import 'package:jimin_clock/enums.dart';
 import 'package:jimin_clock/views/homepage.dart';
 
